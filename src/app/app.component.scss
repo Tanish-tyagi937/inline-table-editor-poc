@@ -1,0 +1,60 @@
+::ng-deep .ngx-datatable.material {
+  margin: 0 auto; /* center the table */
+  width: 90%;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+  font-family: "Segoe UI", sans-serif;
+}
+
+::ng-deep .ngx-datatable.material .datatable-header,
+::ng-deep .ngx-datatable.material .datatable-body {
+  border-top: 1px solid #ddd;
+}
+
+::ng-deep .ngx-datatable.material .datatable-row-group,
+::ng-deep .ngx-datatable.material .datatable-row-center {
+  border-bottom: 1px solid #eee;
+}
+
+::ng-deep .datatable-body-cell {
+  border-right: 1px solid #f0f0f0;
+  padding: 6px 10px;
+  vertical-align: middle;
+  background-color: #fff;
+}
+
+::ng-deep .datatable-body-row:last-child .datatable-body-cell {
+  border-bottom: none;
+}
+
+::ng-deep .datatable-header-cell {
+  text-align: center;
+  font-weight: bold;
+  background-color: #f5f5f5;
+  border-right: 1px solid #ddd;
+}
+
+::ng-deep input,
+::ng-deep select {
+  border: 1px solid #ccc !important;
+  border-radius: 4px;
+  padding: 4px;
+  width: 100%;
+  background-color: #fff;
+}
+
+.action-button {
+  margin: 0 10px;
+  padding: 8px 16px;
+  font-size: 14px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.action-button:hover {
+  background-color: #0056b3;
+}
